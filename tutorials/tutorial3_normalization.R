@@ -1,3 +1,4 @@
+#data normalizayion example
 # Age vector
 age <- c(25, 35, 50)
 
