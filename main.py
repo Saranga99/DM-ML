@@ -1,0 +1,1 @@
+& "E:\iit\YEAR 3/DM-ML/.venv/Scripts/Activate.ps1"

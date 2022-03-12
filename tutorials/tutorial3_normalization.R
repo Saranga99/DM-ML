@@ -6,7 +6,7 @@ age <- c(25, 35, 50)
 salary <- c(200000, 1200000, 2000000)
 
 # Data frame created using age and salary
-df <- data.frame( "Age" = age, "Salary" = salary, stringsAsFactors = FALSE)
+df <- data.frame("Age" = age, "Salary" = salary, stringsAsFactors = FALSE)
 df
 #Age Salary
 # 25 200000
