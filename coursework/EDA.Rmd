@@ -1,0 +1,18 @@
+
+# Required Packages Loading
+
+```{r}
+library("readxl")
+```
+
+# Load Data
+
+```{r}
+data <- read_excel("data/Whitewine_v2.xlsx")
+```
+
+
+```{r}
+summary(data)
+```
+
