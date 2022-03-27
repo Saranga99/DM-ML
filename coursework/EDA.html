@@ -169,11 +169,28 @@ pre code {
 
 <div id="required-packages-loading" class="section level1">
 <h1>Required Packages Loading</h1>
-<pre class="r"><code># Loading
-library(&quot;readxl&quot;)</code></pre>
+<pre class="r"><code>library(&quot;readxl&quot;)</code></pre>
 <pre><code>## Warning: package &#39;readxl&#39; was built under R version 4.1.3</code></pre>
-<pre class="r"><code># excel files
-data &lt;- read_excel(&quot;data/Whitewine_v2.xlsx&quot;)</code></pre>
+</div>
+<div id="load-data" class="section level1">
+<h1>Load Data</h1>
+<pre class="r"><code>data &lt;- read_excel(&quot;data/Whitewine_v2.xlsx&quot;)
+head(data)</code></pre>
+<pre><code>## # A tibble: 6 x 12
+##   `fixed acidity` `volatile acidity` `citric acid` `residual sugar` chlorides
+##             &lt;dbl&gt;              &lt;dbl&gt;         &lt;dbl&gt;            &lt;dbl&gt;     &lt;dbl&gt;
+## 1             8.1               0.27          0.41             1.45     0.033
+## 2             8.6               0.23          0.4              4.2      0.035
+## 3             7.9               0.18          0.37             1.2      0.04 
+## 4             8.3               0.42          0.62            19.2      0.04 
+## 5             6.5               0.31          0.14             7.5      0.044
+## 6             7.6               0.67          0.14             1.5      0.074
+## # ... with 7 more variables: `free sulfur dioxide` &lt;dbl&gt;,
+## #   `total sulfur dioxide` &lt;dbl&gt;, density &lt;dbl&gt;, pH &lt;dbl&gt;, sulphates &lt;dbl&gt;,
+## #   alcohol &lt;dbl&gt;, quality &lt;dbl&gt;</code></pre>
+</div>
+<div id="get-statistiacal-summary-of-the-dataset" class="section level1">
+<h1>Get Statistiacal Summary of the Dataset</h1>
 <pre class="r"><code>summary(data)</code></pre>
 <pre><code>##  fixed acidity    volatile acidity  citric acid     residual sugar  
 ##  Min.   : 3.800   Min.   :0.0800   Min.   :0.0000   Min.   : 0.600  

@@ -1,4 +1,3 @@
-
 # Required Packages Loading
 
 ```{r}
@@ -9,10 +8,16 @@ library("readxl")
 
 ```{r}
 data <- read_excel("data/Whitewine_v2.xlsx")
+head(data)
 ```
 
+# Get Statistiacal Summary of the Dataset
 
 ```{r}
 summary(data)
+```
+
+```{r}
+
 ```
 
