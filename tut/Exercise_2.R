@@ -2,9 +2,12 @@ library(class)
 library(caret)
 library(readxl)   # this is the package for reading xlsx files
 
+
 wbcd<-read_excel("wisc_bc_data.xlsx") 
 
+
 str(wbcd)
+
 
 wbcd <- wbcd[-1]
 
